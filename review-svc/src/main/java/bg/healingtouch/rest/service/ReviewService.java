@@ -62,7 +62,7 @@ public class ReviewService {
         dto.setComment(review.getComment());
         dto.setRating(review.getRating());
         dto.setCreatedOn(review.getCreatedOn());
-        dto.setReviewerName("Anonymous"); // later: replace with real user name
+        dto.setReviewerName("Anonymous");
         return dto;
     }
 
