@@ -31,7 +31,7 @@ public class Review {
     private UUID customerId;
 
     @Column(nullable = false)
-    private int rating; //1-5
+    private int rating;
 
     @Column(length = 2000)
     private String comment;
